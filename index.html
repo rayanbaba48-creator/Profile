@@ -1,72 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
 <head>
-      <title>rayan baba</title> 
-      <link rel="stylesheet" href="rayan.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Baba | Portfolio</title>
+    <!-- خط Cairo وأيقونات Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ملف CSS الخارجي -->
+    <link rel="stylesheet" href="rayan.css">
 </head>
- <body>
- <nav>
-    <a href="#home">الرئيسية</a>
-    <a href="#about">عني</a>
-    <a href="#projects">مشاريعي</a>
-    <a href="#contact">تواصل معي</a>
-</nav>
-<section id="home">
+<body>
 
-    <h1>Rayan Baba</h1>
+    <!-- الإضاءة الضبابية الخلفية -->
+    <div class="ambient-glow"></div>
 
-    <p>مبتدئ في تطوير المواقع 🚀</p>
-
-</section>
-<section id="about">
-
-    <h2>عني</h2>
-
-    <p>
-        أنا Rayan Baba، مبتدئ في تطوير المواقع
-        وأتعلم البرمجة خطوة بخطوة.
-    </p>
-
-</section>
-<section id="projects">
-
-    <h2>مشاريعي</h2>
-
-    <div class="projects">
-
-        <div class="card">
-            <h3>موقعي الشخصي</h3>
-            <p>أول موقع أقوم بإنشائه باستخدام HTML و CSS.</p>
+    <!-- شريط التنقل الزجاجي -->
+    <nav>
+        <div class="logo">Rayan<span>.dev</span></div>
+        <div class="nav-links">
+            <a href="#home">الرئيسية</a>
+            <a href="#skills">مهاراتي</a>
+            <a href="#projects">مشاريعي</a>
+            <a href="#contact">تواصل معي</a>
         </div>
+    </nav>
 
-        <div class="card">
-            <h3>مشروع قادم</h3>
-            <p>سأضيف هنا مشروعًا جديدًا في المستقبل.</p>
+    <!-- الواجهة الرئيسية -->
+    <section id="home" class="hero">
+        <div class="header-container">
+            <img src="profile.jpg" alt="Rayan Baba" class="profile-img">
+            <div>
+                <h1>أهلاً، أنا <span class="gradient-text">Rayan Baba</span></h1>
+                <p class="subtitle">مطور ويب صاعد | Front-End Developer</p>
+            </div>
         </div>
+        <p class="bio">أصمم وأطور واجهات موقع متجاوبة وأنيقة، وأتعلم تقنيات البرمجة الحديثة بخطوات ثابتة. 🚀</p>
+        <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">عرض الأعمال</a>
+            <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+        </div>
+    </section>
 
-    </div>
+    <!-- قسم المهارات البرمجية -->
+    <section id="skills">
+        <h2 class="section-title">مهاراتي البرمجية</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="skill-card"><i class="fab fa-git-alt"></i><span>Git & GitHub</span></div>
+        </div>
+    </section>
 
-      <h1>rayan baba</h1>
-      <p1>مبتدئ</p1>
-<h2>مشاريعي</h2>
+    <!-- قسم المشاريع التفاعلي -->
+    <section id="projects">
+        <h2 class="section-title">مشاريعي المختارة</h2>
+        <div class="projects-grid">
+            <div class="card project-card">
+                <div class="project-tag">مكتمل</div>
+                <h3>موقعي الشخصي (Portfolio)</h3>
+                <p>تصميم واجهة متجاوبة وأنيقة باستخدام HTML و CSS وتأثيرات حركية عصرية.</p>
+                <div class="card-links">
+                    <a href="#" class="link-btn"><i class="fas fa-external-link-alt"></i> معاينة</a>
+                    <a href="#" class="link-btn"><i class="fab fa-github"></i> الكود</a>
+                </div>
+            </div>
+            <div class="card project-card">
+                <div class="project-tag tag-soon">قيد التطوير</div>
+                <h3>تطبيق إدارة المهام</h3>
+                <p>مشروع قادم لبناء قائمة تفاعلية لحفظ المهام والمنظم الشخصي.</p>
+                <div class="card-links">
+                    <a href="#" class="link-btn disabled"><i class="fas fa-lock"></i> قريباً</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h3>موقعي الشخصي</h3>
-<p>هذا أول مشروع لي في تطوير المواقع.</p>
+    <!-- قسم التواصل -->
+    <section id="contact">
+        <h2 class="section-title">تواصل معي</h2>
+        <div class="card contact-card">
+            <p>هل لديك فكرة مشروع أو تريد المناقشة؟ أرسل لي رسالة مباشرة:</p>
+            <a href="mailto:rayanbaba48@gmail.com" class="btn btn-primary btn-mail">
+                <i class="fas fa-envelope"></i> إرسال بريد إلكتروني
+            </a>
+        </div>
+    </section>
 
-<h3>مشروع قادم</h3>
-<p>سأضيف هنا مشاريعي المستقبلية.</p>
-<h2>تواصل معي</h2>
+    <footer>
+        <p>© 2026 تم التطوير بواسطة <span>Rayan Baba</span></p>
+    </footer>
 
-<p>يمكنك التواصل معي عبر البريد الإلكتروني:</p>
-
-<a href="mailto:rayanbaba48@gmail.com.com">
-    أرسل لي رسالة
-</a>
-       </body> 
-       </html>
-       <head>
-    <title>Rayan Baba</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-       
+</body>
+</html>

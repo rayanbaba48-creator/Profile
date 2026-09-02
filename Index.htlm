@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>rayan baba</title> 
+</head>
+ <body>
+ <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">عني</a>
+    <a href="#projects">مشاريعي</a>
+    <a href="#contact">تواصل معي</a>
+</nav>
+<section id="home">
+
+    <h1>Rayan Baba</h1>
+
+    <p>مبتدئ في تطوير المواقع 🚀</p>
+
+</section>
+<section id="about">
+
+    <h2>عني</h2>
+
+    <p>
+        أنا Rayan Baba، مبتدئ في تطوير المواقع
+        وأتعلم البرمجة خطوة بخطوة.
+    </p>
+
+</section>
+<section id="projects">
+
+    <h2>مشاريعي</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>موقعي الشخصي</h3>
+            <p>أول موقع أقوم بإنشائه باستخدام HTML و CSS.</p>
+        </div>
+
+        <div class="card">
+            <h3>مشروع قادم</h3>
+            <p>سأضيف هنا مشروعًا جديدًا في المستقبل.</p>
+        </div>
+
+    </div>
+
+</section>#000000nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: #12192c;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 70px 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #12192c;
+    border: 1px solid #303957;
+    border-radius: 15px;
+    padding: 25px;
+    width: 280px;
+}
+
+.card h3 {
+    color: #7c5cff;
+}
+      <h1>rayan baba</h1>
+      <p1>مبتدئ</p1>
+<h2>مشاريعي</h2>
+
+<h3>موقعي الشخصي</h3>
+<p>هذا أول مشروع لي في تطوير المواقع.</p>
+
+<h3>مشروع قادم</h3>
+<p>سأضيف هنا مشاريعي المستقبلية.</p>
+<h2>تواصل معي</h2>
+
+<p>يمكنك التواصل معي عبر البريد الإلكتروني:</p>
+
+<a href="mailto:rayanbaba48@gmail.com.com">
+    أرسل لي رسالة
+</a>
+       </body> 
+       </html>
+       <head>
+    <title>Rayan Baba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+       
